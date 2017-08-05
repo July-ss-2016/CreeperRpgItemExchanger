@@ -1,0 +1,7 @@
+name: CreeperRpgItemExchanger
+main: vip.creeper.mcserverplugins.creeperrpgitemexchanger.CreeperRpgItemExchanger
+author: July_ss
+depend: [CreeperRpgItem, CreeperRpgItemAttributeDisplayer]
+version: 1.0.0
+commands:
+  crie:

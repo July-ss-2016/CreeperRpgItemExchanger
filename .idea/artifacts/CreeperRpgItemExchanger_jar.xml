@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CreeperRpgItemExchanger:jar">
+    <output-path>$PROJECT_DIR$/../../../test_servers/RpgSurvival_0/plugins</output-path>
+    <root id="archive" name="CreeperRpgItemExchanger.jar">
+      <element id="module-output" name="CreeperRpgItemExchanger" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
