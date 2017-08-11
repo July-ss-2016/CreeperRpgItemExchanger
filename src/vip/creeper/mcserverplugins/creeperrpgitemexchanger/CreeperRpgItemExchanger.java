@@ -79,7 +79,10 @@ public class CreeperRpgItemExchanger extends JavaPlugin implements Listener {
 
         List<String> tempLores = itemMeta.getLore();
 
-        tempLores.add(0, "§7- §f代码 §b> §fEXCHANGE_" + itemCode);
+        if (tempLores != null) {
+            tempLores.add(0, "§7- §f代码 §b> §fEXCHANGE_" + itemCode);
+        }
+
         itemMeta.setLore(tempLores);
         item.setItemMeta(itemMeta);
         return item;
